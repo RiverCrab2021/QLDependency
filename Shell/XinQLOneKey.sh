@@ -45,22 +45,15 @@ echo
 npm -v
 
 npm config set registry https://registry.npmmirror.com
-cd /ql
+cd /QL
 pnpm add -g pnpm
-
 pnpm install -g
+npm install -g npm dayjs
 
-npm install -g npm png-js date-fns axios crypto-js ts-md5 tslib @types/node requests tough-cookie jsdom download tunnel fs ws form-data
 
-pnpm install -g js-base64 qrcode-terminal silly-datetime
 
-pip3 install requests
 
-cd /ql/data/scripts/ && apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev && npm i && npm i -S ts-node typescript @types/node date-fns axios png-js canvas --build-from-source
-cd /ql
-apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev && cd /ql/data/scripts/ && npm install canvas --build-from-source
-cd /ql
-apk add python3 zlib-dev gcc jpeg-dev python3-dev musl-dev freetype-dev
+
 
 echo
 TIME g "依赖安装完毕...建议重启 Docker "
